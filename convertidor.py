@@ -29,6 +29,8 @@ elif moneda == "dolares" and out == "francos":
     print(dinero, moneda, "equivalen a ", dinero * 0.8415, "francos\n")
 elif moneda == "dolares" and out == "yuanes":
     print(dinero, moneda, "equivalen a ", dinero * 7.0978, "yuanes\n")
+elif moneda == "dolares" and out == "dolares":
+    print("¿De verdad quieres convertir", moneda, "a ", moneda, "\n")
 
 if moneda == "libras" and out == "euros":
     print(dinero, moneda, "equivalen a ", dinero * 1.1532, "euros\n")
@@ -40,6 +42,8 @@ elif moneda == "libras" and out == "francos":
     print(dinero, moneda, "equivalen a ", dinero * 1.0711, "francos\n")
 elif moneda == "libras" and out == "yuanes":
     print(dinero, moneda, "equivalen a ", dinero * 9.0481, "yuanes\n")
+elif moneda == "libras" and out == "libras":
+    print("¿De verdad quieres convertir", moneda, "a ", moneda, "\n")
 
 if moneda == "yenes" and out == "euros":
     print(dinero, moneda, "equivalen a ", dinero * 0.0064, "euros\n")
@@ -51,6 +55,8 @@ elif moneda == "yenes" and out == "francos":
     print(dinero, moneda, "equivalen a ", dinero * 0.5965, "francos\n")
 elif moneda == "yenes" and out == "yuanes":
     print(dinero, moneda, "equivalen a ", dinero * 0.0503, "yuanes\n")
+elif moneda == "yenes" and out == "yenes":
+    print("¿De verdad quieres convertir", moneda, "a ", moneda, "\n")
 
 if moneda == "francos" and out == "euros":
     print(dinero, moneda, "equivalen a ", dinero * 1.0761, "euros\n")
@@ -62,6 +68,8 @@ elif moneda == "francos" and out == "yenes":
     print(dinero, moneda, "equivalen a ", dinero * 167.5500, "yenes\n")
 elif moneda == "francos" and out == "yuanes":
     print(dinero, moneda, "equivalen a ", dinero * 8.4307, "yuanes\n")
+elif moneda == "francos" and out == "francos":
+    print("¿De verdad quieres convertir", moneda, "a ", moneda, "\n")
 
 if moneda == "yuanes" and out == "euros":
     print(dinero, moneda, "equivalen a ", dinero * 0.1275, "euros\n")
@@ -73,3 +81,5 @@ elif moneda == "yuanes" and out == "yenes":
     print(dinero, moneda, "equivalen a ", dinero * 19.8567, "yenes\n")
 elif moneda == "yuanes" and out == "francos":
     print(dinero, moneda, "equivalen a ", dinero * 0.1185, "francos\n")
+elif moneda == "yuanes" and out == "yuanes":
+    print("¿De verdad quieres convertir", moneda, "a ", moneda, "\n")
